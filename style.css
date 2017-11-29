@@ -1,0 +1,176 @@
+@media screen and (max-width: 860px){
+
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper{
+        width: 100%;
+
+    }
+    .container{
+        margin: 0 auto;
+    }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 7em;
+
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, yellow, red); /* For Safari 5.1 to 6.0 */
+    background: linear-gradient(to top right,orange, #d22f31, purple,  rebeccapurple ,cornflowerblue); /* Standard syntax */
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+.container{
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding-top: 10px;
+}
+article{
+    font-size: 50px;
+
+}
+
+.uploadimg{
+    width: 100%;
+    padding: 1em 0em 1em 0em;
+}}
+/*-------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 860px) {
+
+
+    body{
+        padding: 0;
+        margin: 0;
+    }
+     .wrapper{
+        width: 100%;
+    }
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+        height: 4em;
+
+        background: red; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left top, yellow, red); /* For Safari 5.1 to 6.0 */
+        background: linear-gradient(to top right, orange, #d22f31, purple, rebeccapurple, cornflowerblue); /* Standard syntax */
+    }
+
+    li {
+        float: left;
+        width: 20%;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        color: black;
+        opacity: 0.6;
+    }
+    
+    li a:active{
+        opacity: 1;
+    }
+
+    .container {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    .uploadimg {
+        width: 100%;
+        padding: 16px 0px 3px 0px;
+        margin: 0 auto;
+    }
+
+
+    .artic{
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 20px;
+        text-align: left;
+        padding-top: 10px;
+    }
+    .artic2{
+        border: 1px solid gainsboro;
+        border-radius: 0px 0px 10px 10px;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 20px;
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .beschrijving{
+        margin: 10% 25% 0% 25%;
+
+    }
+
+    .userName{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        width: 100px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .artic>header{
+        margin: 0px 25px 0px 25px;
+    }
+    .description{
+        font-size: 19px;
+        font-family: 'PT Sans', sans-serif;
+    }
+    .date{
+        text-align: right;
+        opacity: 0.6;
+        font-size: 17px;
+        display: block;
+        position: relative;
+        float: right;
+    }
+    .ajax{
+        display: inline-block;
+    }
+
+}
